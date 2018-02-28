@@ -1,0 +1,266 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Merriweather: 400, 700);
+
+
+
+body {
+  background: #fff;
+  font-family: 'Noto Serif', serif;
+  margin: 0;
+  font-size: 28px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.74);
+}
+
+
+
+h2 {
+  margin: 0;
+
+
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+figure {
+  margin: 0;
+}
+
+figure img {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+figcaption {
+  font-size: 14px;
+  color: #555;
+}
+
+
+
+blockquote {
+  width: 66%;
+  margin: 1em auto;
+  background: #ddd;
+  padding: 1em;
+  font-size: 1.25em;
+  text-align: center;
+  color: #696969;
+  border-bottom: 1px solid #999;
+  border-top: 1px solid #999;
+}
+
+
+.content {
+  margin: 0 auto;
+  padding: 1em 20%;
+  box-sizing: border-box;
+}
+
+
+footer {
+  height: 100px;
+  background: #000;
+  color: #eee;
+  text-align: center;
+  padding: 1em;
+}
+
+
+
+.image_bg {
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center !important;
+}
+.flag {
+  background: url(images/flag.gif) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+header {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  font-weight: 4000;
+  text-shadow: 0 0 9px #000000;
+  font-size: 10vw
+  width: 75%;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 8vw;
+  color: white;
+}
+
+header a {
+  color: white;
+}
+
+
+
+
+
+.govote {
+  background: url(images/votes2.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+}
+
+.banner {
+  background: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+}
+
+
+.beer {
+  background: url(images/beer.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100% !important;
+}
+
+
+
+}
+
+.profile {
+  text-align: center;
+  font-weight: normal;
+}
+
+
+.overlay_fig {
+  position: relative;
+}
+
+.overlay_fig img {
+  box-shadow: none;
+}
+
+.overlay_fig figcaption {
+  position: absolute;
+  bottom: 1em;
+  left: 10em;
+  background: rgba(0, 0, 0, 0.6);
+  width: 40%;
+  font-size: 1em;
+  color: white;
+  padding: 0.33em;
+}
+.overlay_gabs figcaption {
+  position: absolute;
+  bottom: 1em;
+  left: 2em;
+  background: rgba(0, 0, 0, 0.6);
+  width: 50%;
+  font-size: 1.5em;
+  color: white;
+  padding: 0.33em;
+}
+
+.content.man {
+
+  padding: 1em 10% 1em 60%;
+}
+
+
+
+.bq_one {
+  font-size: 18px;
+  font-family: georgia, serif;
+  color: #900C3F;
+  background: #FAD7A0;
+  padding: 1em;
+  border-left: 8px solid #C70039;
+}
+
+.bq_two {
+  background: none;
+}
+
+
+
+.flex_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  width: 40%;
+  margin: 2em;
+}
+
+.item img {
+  border-radius: 50%;
+}
+
+.embed_bg {
+  height: 100vh;
+
+   position: relative;
+
+   background-position: center !important;
+}
+
+.embed_bg > header {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 0 0 9px #000000;
+    width: 75%;
+    text-align: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+.overlay_full {
+  position: absolute;
+
+background: url(images/grad1.png) no-repeat;
+background-size: cover;
+width: 100%;
+height: 100vh;
+z-index: 2;
+}
+
+.front {
+  z-index:100;
+}
+
+
+.overlay_full_holes {
+  position: absolute;
+
+background: url(images/grad2.png) no-repeat;
+background-size: cover;
+width: 100%;
+height: 100vh;
+z-index: 2;
+}
