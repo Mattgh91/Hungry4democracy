@@ -151,7 +151,7 @@ header a {
 }
 
 .overlay_fig figcaption {
-  position: absolute;
+  position:relative
   top: 1em;
   left: 1em;
   background: rgba(0, 0, 0, 0.6);
