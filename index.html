@@ -19,12 +19,44 @@
 
 <body>
   <article>
-    <section class="flag.gif image_bg">
-       <header>
-         <h1>Hungry for Democracy</h1>
-          <h2>The fight for universal suffrage continues</h2>
-          <h3> By Connor Parker, 08/02/2017 </h3>
-
+<!doctype html>
+<html>
+<head>
+	<style>	
+	body,html {
+		margin:0;
+	}
+	.videoContainer {
+		width:100vw;
+		height:100vh;
+		overflow:hidden;
+		background:transparent url('images/Spinner-1s-200px.gif') no-repeat 50%;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    position: relative;
+	}
+	video {
+		width: 100vw;
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	}
+	</style>
+</head>
+<body>
+	<div class="videoContainer">
+		<header>
+			<h1>Hungry for Democracy</h1>
+			<h2>The fight for universal suffrage continues</h2>
+			<h3> By Connor Parker, 08/02/2017 </h3>
+		</header>
+		<video autoplay loop>
+			<source src="images/flat-compressed.mp4" type="video/mp4">
+		</video>
+	</div>
+</body>
+</html>
 
 
       </section>
